@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>paybill</title>
+    <style>
+  *{
+    padding:0;
+    margin:0;
+  }
+  .q1{
+    width:100%;
+    height:60px;
+  }
+  @media screen and (max-width:415px) {
+    .q1{
+      height: auto;
+      width:100%;
+    }
+  }
+  
+  .q1 img{
+    height:60px;
+    margin-left:50px;
+  }
+ 
+  .q2{
+    width:100%;
+    height:670px;
+  }
+  @media screen and (max-width:415px) {
+    .q2{
+      height: auto;
+      display:block;
+     background-color:rgb(250, 241, 250);
+      width: 100%;
+    }
+  }
+  .q3{
+    height:670px;
+    width:35%;
+    background-color:rgb(230, 230, 243);
+  }
+
+  @media screen and (max-width:415px) {
+   .q3{
+    width:100%;
+    height: auto;
+    display:block;
+   } 
+  }
+  #x1{
+    margin-left:150px;
+    margin-top:50px;
+    position: absolute;
+  }
+  @media screen and (max-width:415px) {
+   #x1{
+    margin-left:10px;
+    font-size: 20px;
+   } 
+  
+  }
+  #x2{
+    margin-left:150px;
+    margin-top:100px;
+    font-family: 'Times New Roman',;
+    position: absolute;
+  }
+
+  @media screen and (max-width:415px) {
+   #x2{
+    margin-left:90px;
+    margin-top:50px;
+    font-size:20px;
+   } 
+  }
+  .q3 h2{
+    margin-top:140px;
+    margin-left:150px;
+    position: absolute;
+  }
+  @media screen and (max-width:415px) {
+   .q3 h2{
+    margin-left:80px;
+    margin-top:80px;
+   } 
+  }
+  #x3{
+    margin-top:190px;
+  }
+  @media screen and (max-width:415px) {
+   #x3{
+    margin-left:10px;
+    font-size:15px;
+    margin-top:120px;
+   } 
+  }
+  #x4{
+    margin-top:225px;
+  }
+  @media screen and (max-width:415px) {
+   #x4{
+    margin-left:110px;
+    margin-top:120px;
+    font-size:15px;
+   } 
+  }
+  
+  #x5{
+    height:90px;
+    margin-top:290px;
+    margin-left:150px;
+  }
+  @media screen and (max-width:415px) {
+   #x5{
+    margin-top:60px;
+    margin-left:280px;
+   } 
+  }
+
+  .q4{
+    width:65%;
+    height:670px;
+    margin-top:-670px;
+    margin-left:532px;
+  }
+
+  @media screen and (max-width:415px) {
+    .q4{
+      height: auto;
+      width: 100%;
+      display:block;
+      margin-left:0px;
+      margin-top:0px;
+    }
+  }
+
+  #x6{
+    margin-top:150px;
+    margin-left:250px;
+    position: absolute;
+    font-size:25px;
+    font-weight:200;
+
+  }
+  @media screen and (max-width:415px) {
+   #x6{
+    margin-top:50px;
+    margin-left:50px;
+    font-size:22px;
+   } 
+  }
+
+  #x7{
+    margin-top:230px;
+    margin-left:250px;
+    padding-right:120px;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size:20px;
+    
+  }
+  @media screen and (max-width:415px) {
+   #x7{
+    margin-top:150px;
+    margin-left:10px;
+   } 
+  }
+
+  #x8{
+    margin-top:320px;
+    margin-left:-375px;
+    position: absolute;
+    padding-right:120px;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size:20px;
+    background-color:rgb(224, 221, 221);
+  }
+  @media screen and (max-width:415px) {
+    #x8{
+      margin-top:250px;
+      margin-left:-370px;
+    }
+  }
+  
+  #X9{
+    margin-top:120px;
+    margin-left:300px;
+    font-weight: 300;
+  }
+
+  @media screen and (max-width:415px) {
+   #X9{
+    margin-left:10px;
+    margin-top:150px;
+    
+   } 
+  }
+  .q4 button{
+    margin-left:250px;
+    margin-top:50px;
+    padding-left:155px;
+    padding-right: 155px;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color: rgb(167, 167, 167);
+    color:white;
+    cursor: pointer;
+  }
+  @media screen and (max-width:415px) {
+   .q4 button{
+    margin-left:10px;
+   } 
+  }
+
+  #x10{
+    margin-top:130px;
+  }
+  @media screen and (max-width:415px) {
+   #x10{
+    margin-left:10px;
+    margin-top:100px;
+   } 
+  }
+
+  #x11{
+    margin-left:800px;
+    margin-top:-20px;
+    position: absolute;
+  }
+
+ @media screen and (max-width:415px) {
+    #x11{
+      margin-left:260px;
+      margin-top:-40px;
+    }
+  }
+  #x12{
+    margin-left:872px;
+    margin-top:-20px;
+    position: absolute;
+  }
+
+   @media screen and (max-width:415px) {
+    #x12{
+      margin-left:320px;
+      margin-top:-40px;
+    }
+  }
+
+    </style>
+</head>
+<body>
+   <div class="q1">
+   <img src="logo.png" alt="error">
+   </div><hr>
+   <div class="q2">
+   <div class="q3">
+   <h1 id="x1">Postpaid</h1>
+   <h1 id="x2">Bill Payment</h1>
+   <h2>**********</h2>
+   <h2 id="x3">Let's get your</h2>
+   <h2 id="x4">bill Payment done!</h2>
+   
+   <img id="x5" src="paybi.svg" alt="">
+   </div>
+   <div class="q4">
+    <h2 id="x6">Enter Your details below</h2>
+ <input id="x7" type="text" placeholder=" Enter Mobile Number" >
+ <input id="x8" type="text" placeholder="Enter Amount">
+ <h4 id="X9">CHECK BILL AMOUNT</h4>
+
+ <button>PAY BILL</button>
+    
+  <h5 id="x10">2022 Airtel India. All Rights Resereved</h5>
+
+  <img id="x11" src="northan1.webp" alt="error">
+  <img id="x12" src="northan2.webp" alt="error">
+
+
+
+   </div>
+
+
+   </div>
+</body>
+</html>

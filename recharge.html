@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recharge</title>
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+
+        }
+.h1{
+    width:100%;
+    height:80px;
+    background-color:rgb(248, 251, 254);
+}
+@media screen and (max-width:415px) {
+    .h1{
+        width:100%;
+        height:auto;
+    }
+    
+}
+
+.h1 img{
+width:150px;
+height:80px;
+margin-left:150px;
+}
+
+@media screen and (max-width:415px) {
+    .h1 img{
+       margin-left:20px;
+    }
+}
+
+.h2{
+    width:50%;
+    height:600px;
+    float: left;
+}
+@media screen and (max-width:415px) {
+    .h2{
+        width:100%;
+        height:auto;
+    }
+    
+}
+#h1{
+    margin-left:100px;
+    margin-top:100px;
+    font-size:50px;
+}
+@media screen and (max-width:415px) {
+    #h1{
+        margin-left:20px;
+        font-size:30px;
+    }
+}
+#h2{
+    margin-left:100px;
+    color:red;
+    font-size:50px;
+}
+@media screen and (max-width:415px) {
+    #h2{
+        margin-left:20px;
+        font-size:30px;
+    }
+}
+#h3{
+    height:70px;
+    margin-top:70px;
+
+}
+#q1{
+    margin-top:-40px;
+    margin-left:80px;
+    color:silver;
+}
+#q2{
+    margin-left:80px;   
+}
+.h2 h4{
+    margin-top:60px;
+    font-size:20px;
+    color:burlywood;
+}
+@media screen and (max-width:415px) {
+    .h2 h4{
+        margin-left:80px;
+    }
+    
+}
+
+.h3{
+    width:600px;
+    height:200px;
+    margin-top:200px;
+}
+
+@media screen and (max-width:415px) {
+  .h3{
+    width:100%;
+    height:auto;
+  }
+}
+
+
+.h3 h1{
+    font-size:30px;
+    font-weight: 400;
+    color:red;
+}
+
+@media screen and (max-width:415px) {
+    .h3 h1{
+        font-size:25px;
+        color:red;
+    }
+}
+.h3 p{
+    font-size:16px;
+    font-weight:200;
+}
+
+@media screen and (max-width:415px) {
+    .h3 p{
+        text-align:justify;
+    }
+}
+
+#mnmn{
+    padding-right:150px;
+    margin-top:100px;
+    position: absolute;
+    padding-top:20px;
+    font-size:20px;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+}
+
+
+
+</style>
+
+
+
+
+</head>
+<body>
+    <div class="h1">
+  <img src="logo.png" alt="">
+    </div>
+
+    <div class="h2">
+        <h1 id="h1">Prepaid</h1>
+        <h1 id="h2">Recharge</h1>
+    </div>
+    <div class="h2">
+        <img id="h3" src="rech.png" alt="">
+        <h2 id="q1">Let’s Get Your</h2>
+        <h2 id="q2">Recharge Done!</h2>
+        <h4>MOBILE NUMBER</h4>
+        <input onclick="hide()" id="mnmn" type="text" placeholder="Enter your mobile no">
+
+    <div class="h3">
+        <h1>Online Recharge – Airtel</h1>
+        <p>Airtel Prepaid Mobile Recharge can be done in easy steps through online mode. Enter the Airtel mobile number and proceed to choose prepaid recharge pack from a range of best-selling Airtel Prepaid plans. Recharge Online now to avail deals and get the hassle-free Airtel Prepaid recharge experience.</p>
+    </div>
+    </div>
+</body>
+<script>
+function hide(){
+  
+    document.getElementById("mnmn").style.fontSize="20px"
+    document.getElementById("mnmn").style.borderBottomColor="blue"
+    document.getElementById("mnmn").style.borderRadius="10px"
+    document.getElementById("mnmn").style.borderColor="transparent"
+
+}
+</script>
+</html>
